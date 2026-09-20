@@ -8,10 +8,19 @@
 
 ## 복사 방법
 
-1. WSL Ubuntu의 조별 폴더(app.py가 있는 위치)에서 `mkdir -p week1`, `explorer.exe week1`을 실행합니다.
-2. Win+E로 원본 PDF 폴더를 열어 선택 후 Ctrl+C를 누릅니다.
-3. 열린 week1 탐색기 창에서 Ctrl+V를 누르고 PDF를 더블클릭해 확인합니다.
-4. 발표자료 8쪽에서 `.gitignore`와 함께 commit·push합니다. GitHub main → week1 → PDF를 클릭해 실제 파일을 확인합니다.
+조장 한 명이 다음 순서로 진행합니다. 아래는 VS Code 메뉴와 파일 관리자 조작 안내이며, 터미널에 입력할 명령이 아닙니다.
 
-이 README는 그대로 두어도 됩니다. 기존 실행 내용을 다시 쓰거나 1주차 app.py를 복사할 필요가 없습니다.
+1. VS Code에서 **File(파일) → Open Folder(폴더 열기)**로 조별 저장소 폴더를 엽니다. 이미 열려 있다면 그대로 진행합니다. 왼쪽 Explorer에 `app.py`와 `week1`이 보이는지 확인합니다.
+2. Explorer의 **week1 폴더를 우클릭**합니다.
+   - **Windows:** **Reveal in File Explorer(파일 탐색기에 표시)**를 선택합니다.
+   - **macOS:** **Reveal in Finder(Finder에 표시)**를 선택합니다.
+3. 열린 파일 관리자에서 **week1 폴더 안으로 들어갑니다.** 상위 폴더에서 week1이 선택되어 있다면 더블클릭해 엽니다.
+4. 별도의 파일 탐색기 또는 Finder 창에서 지난주 제출 PDF가 있는 원본 폴더를 엽니다. PDF를 선택해 복사한 뒤, 앞서 연 **week1 폴더 안에 붙여넣습니다.**
+   - **Windows:** 복사 **Ctrl+C** → 붙여넣기 **Ctrl+V**.
+   - **macOS:** 복사 **⌘C** → 붙여넣기 **⌘V**.
+5. 복사한 PDF를 더블클릭해 실제 내용이 열리는지 확인합니다.
+6. 발표자료의 **‘.gitignore 파일 작성’ → ‘.gitignore 작동 확인’ → ‘공통 시작 상태 push’** 순서로 진행하여 `.gitignore`와 PDF를 commit·push합니다.
+7. 웹 브라우저에서 **조별 GitHub 저장소 → Code → main → week1 → PDF**를 클릭해 업로드된 내용을 확인합니다.
+
+이 README는 그대로 두어도 됩니다. 기존 실행 내용을 다시 쓰거나 1주차 `app.py`를 복사할 필요가 없습니다.
 이 안내문만 있고 PDF가 없는 상태는 체크포인트를 충족하지 않습니다.
